@@ -32,7 +32,7 @@ update_model(new_data_path, model_path, scaler_path)
 ## How to Use Each Function in main.py
 ### Load Data and Preprocess:
 ```python
-df_scaled = load_and_prepare_data("synthetic_perishable_stock_data.csv") 
+df_scaled = load_and_prepare_data("dataset.csv") 
 ```
 ### Create Sequences:
 ```python
